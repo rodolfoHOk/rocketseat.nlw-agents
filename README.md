@@ -69,7 +69,3 @@ A API estará disponível em `http://localhost:3333`
 ## Acesso do Frontend Web 🌐
 
 O App estará disponível em `http://localhost:5173`
-
-#### Continua
-
-- aula 01 -25:05
