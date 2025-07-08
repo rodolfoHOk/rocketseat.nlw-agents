@@ -1,2 +1,6 @@
 ### Health
 GET http://localhost:3333/health
+
+### Rooms
+GET http://localhost:3333/rooms
+
