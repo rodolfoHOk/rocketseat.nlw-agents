@@ -7,7 +7,7 @@
 ### Servidor API
 
 - TypeScript
-- Node.js
+- Node.js (22)
 - Fastify
 - Drizzle ORM
 - Zod
@@ -20,10 +20,10 @@
 - TypeScript
 - React (19.1)
 - Vite
-- Tailwind CSS
+- Tailwind CSS (4.1)
 - Shadcn/ui
 - Radix UI
-- React Router Dom
+- React Router Dom (7.6)
 - TanStack React Query
 - Lucide React
 - Biome
