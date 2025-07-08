@@ -3,11 +3,14 @@ import { db } from '../../db/conection.ts';
 import { schema } from '../../db/schemas/index.ts';
 
 export const getRoomsRoute: FastifyPluginCallbackZod = (app) => {
-    app.get('/rooms', async () => {
-        const results = await db.select({
-            id: schema.rooms.id,
-            name: schema.rooms.name
-        }).from(schema.rooms).orderBy(schema.rooms.createdAt);
-        return results;
-    });
-}
+  app.get('/rooms', async () => {
+    const results = await db
+      .select({
+        id: schema.rooms.id,
+        name: schema.rooms.name,
+      })
+      .from(schema.rooms)
+      .orderBy(schema.rooms.createdAt);
+    return results;
+  });
+};

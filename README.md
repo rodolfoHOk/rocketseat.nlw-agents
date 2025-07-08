@@ -6,6 +6,7 @@
 
 ### Servidor API
 
+- TypeScript
 - Node.js
 - Fastify
 - Drizzle ORM
@@ -16,7 +17,16 @@
 
 ### Frontend WEB
 
-- Em Breve
+- TypeScript
+- React (19.1)
+- Vite
+- Tailwind CSS
+- React Router Dom
+- TanStack React Query
+- Radix UI
+- Shadcn/ui
+- Lucide React
+- Biome
 
 ## Como rodar o Servidor ⚙️
 
@@ -47,8 +57,15 @@ A API estará disponível em `http://localhost:3333`
 
 ### Pré-requisitos
 
-- Em breve
+- Node.js 22
 
 ### Etapas / Comandos
 
-- Em breve
+- git clone <url-do-repositorio>
+- cd web
+- npm install
+- npm run dev
+
+## Acesso do Frontend Web 🌐
+
+O App estará disponível em `http://localhost:5173`
