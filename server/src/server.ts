@@ -1,11 +1,12 @@
-import { fastify } from 'fastify';
 import { fastifyCors } from '@fastify/cors';
+import { fastify } from 'fastify';
 import {
   serializerCompiler,
   validatorCompiler,
   type ZodTypeProvider,
 } from 'fastify-type-provider-zod';
 import { env } from './env.ts';
+import { createRoomRoute } from './http/routes/create-room.ts';
 import { getRoomsRoute } from './http/routes/get-rooms.ts';
 
 const PORT = env.PORT;
@@ -22,6 +23,7 @@ app.setValidatorCompiler(validatorCompiler);
 app.get('/health', () => 'OK');
 
 app.register(getRoomsRoute);
+app.register(createRoomRoute);
 
 app
   .listen({ port: PORT })
