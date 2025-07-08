@@ -21,10 +21,10 @@
 - React (19.1)
 - Vite
 - Tailwind CSS
+- Shadcn/ui
+- Radix UI
 - React Router Dom
 - TanStack React Query
-- Radix UI
-- Shadcn/ui
 - Lucide React
 - Biome
 
@@ -69,3 +69,7 @@ A API estará disponível em `http://localhost:3333`
 ## Acesso do Frontend Web 🌐
 
 O App estará disponível em `http://localhost:5173`
+
+#### Continua
+
+- aula 01 -25:05
