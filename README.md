@@ -26,6 +26,8 @@
 - TanStack React Query
 - Lucide React
 - Biome
+- Audio record
+- Upload audio
 
 ## Como rodar o Servidor ⚙️
 

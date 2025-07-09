@@ -15,6 +15,13 @@
       "when": 1751999007742,
       "tag": "0001_broad_madame_web",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752083779335,
+      "tag": "0002_exotic_korvac",
+      "breakpoints": true
     }
   ]
 }
