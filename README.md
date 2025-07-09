@@ -22,7 +22,6 @@
 - Vite
 - Tailwind CSS (4.1)
 - Shadcn/ui
-- Radix UI
 - React Router Dom (7.6)
 - TanStack React Query
 - Lucide React
@@ -69,3 +68,7 @@ A API estará disponível em `http://localhost:3333`
 ## Acesso do Frontend Web 🌐
 
 O App estará disponível em `http://localhost:5173`
+
+#### Continua
+
+- aula 3
