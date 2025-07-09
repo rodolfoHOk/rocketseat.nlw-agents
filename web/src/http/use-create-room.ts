@@ -10,16 +10,16 @@ export function useCreateRoom() {
       const response = await fetch('http://localhost:3333/rooms', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify(data),
       });
       const result: CreateRoomResponse = await response.json();
       return result;
     },
 
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['get-rooms'] })
+      queryClient.invalidateQueries({ queryKey: ['get-rooms'] });
     },
   });
 }
