@@ -27,7 +27,7 @@ export function RoomPage() {
               </Button>
             </Link>
 
-            <Link to={`/room/${params.roomId}/audio`}>
+            <Link to={`/rooms/${params.roomId}/audio`}>
               <Button className="flex items-center gap-2" variant="secondary">
                 <Radio className="size-4" />
                 Gravar Áudio
