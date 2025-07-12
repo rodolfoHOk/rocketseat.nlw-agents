@@ -14,6 +14,7 @@
 - Biome
 - PostgreSQL
 - Docker
+- GoogleGenAI (gemini-2.5-flash / Transcribe audio and Generate answer) (text-embedding-004 / Generate embeddings)
 
 ### Frontend WEB
 
@@ -70,7 +71,3 @@ A API estará disponível em `http://localhost:3333`
 ## Acesso do Frontend Web 🌐
 
 O App estará disponível em `http://localhost:5173`
-
-#### Continua
-
-- aula 3
